@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(85, 85, 90);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 100%;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 318px;
+    top: 25%;
+    position: absolute;
+}
+
+.grid :hover{
+    background-color: rgb(160, 145, 160);
+    transform: scale(1.05);
+    transition: all 0.3s ease-in;
+}
+
+.center{
+    justify-content: center;
+    align-items: center;
+    background-color: yellow;
+}
+
+.box{
+    border-radius: 10px;
+    background-color: white;
+    height: 100px;
+    width: 100px;
+    border: black solid;   
+}
